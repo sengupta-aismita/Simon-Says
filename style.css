@@ -1,0 +1,69 @@
+*{
+    margin:0;
+    padding: 0;
+    text-align: center;
+    font-family: "Exo 2", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(36, 162, 74);
+}
+
+
+.container{
+    margin: 20px;
+    padding: 20px;
+    height:400px;
+    width:400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
+
+.btn{
+    height:150px;
+    width:150px;
+    border:4px solid black;
+    margin:15px;
+    padding: 5px;
+    border-radius: 2rem;
+}
+
+.one{
+    background-color:#d95980;
+}
+
+.two{
+    background-color: #f99b45;
+}
+
+.three{
+    background-color: #63aac0;
+}
+
+.four{
+    background-color: #7429b5;
+}
+
+.flash{
+    background-color: white;
+}
+
+.userflash{
+    background-color: rgb(47, 24, 164);
+}
+
+.reset-game{
+    font-size: 25px;
+    font-weight: 900;
+    color: white;
+    background-color: rgb(8, 1, 1);
+    border: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 2rem;
+}
+
